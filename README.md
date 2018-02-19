@@ -1,2 +1,0 @@
-# MarsRover
-MarsRover application
