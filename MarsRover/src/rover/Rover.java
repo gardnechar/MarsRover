@@ -15,7 +15,7 @@ public class Rover {
 	static String[] rover2Direction = new String[1];
 	
 	
-	//Method to move the rover forward by 1 position degrees
+	//Method to move the rover forward by 1 position
 	public static void moveForward(String direction, int[] rover) {
 		
 		System.out.println("Rover moved forward 1 position");
@@ -54,7 +54,7 @@ public class Rover {
 	}
 	
 	
-	//Method to rotate the rover left or right by 90 degrees
+    //Method to rotate the rover left or right by 90 degrees
     public static void rotate(String direction, String[] rover) {
 		
 		if (direction.contains("L")) {
@@ -107,8 +107,8 @@ public class Rover {
 		
 		
 		
-		//Get map size
-		Scanner reader = new Scanner(System.in);  
+	    //Get map size
+	    Scanner reader = new Scanner(System.in);  
 	    System.out.println("To set the map size, please enter the upper-right coordinates of the plateau e.g. 5 5");
 	    for (int i = 0; i < 2; i++) {	
 	    	map[i] = reader.nextInt(); 
@@ -178,7 +178,7 @@ public class Rover {
     	
     	
     	//Get starting position of Rover2
-	    System.out.println("Please enter the starting position of Rover2 and its orientation  e.g. 3 3 E");
+	System.out.println("Please enter the starting position of Rover2 and its orientation  e.g. 3 3 E");
 	    
 	    for (int i = 0; i < 2; i++) {
 	    	
