@@ -4,7 +4,7 @@ Owner: Chas Gardner
 Date: 19/02/2018
 
 Instructions:
-This application was built in Eclipse JDE. I have provided an executable jar file and the original project eclipse files.
+This application was built in Eclipse JDE. I have provided an executable jar file and the original project Eclipse files.
 To run the application you can either import the jar file into Eclipse or you can paste the original project folder 'MarsRover' provided,
 into your Eclipse workspace and run the project.
 
